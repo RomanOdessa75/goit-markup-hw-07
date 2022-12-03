@@ -178,6 +178,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+  color: var(--secondary-color);
 }
 .contacts-nav .item + .item {
   margin-left: 50px;
@@ -208,6 +209,9 @@ img {
 .site-nav .item:last-child {
   margin-right: 0;
 }
+.site-nav .link {
+  color: var(--primary-text-color);
+}
 .site-nav .active {
   color: var(--secondary-color);
 }
@@ -217,7 +221,6 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
   line-height: 16px;

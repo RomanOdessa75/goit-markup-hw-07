@@ -18,6 +18,7 @@
 .contacts-nav {
   display: flex;
   margin-left: auto;
+  color: var(--secondary-color);
 
   & .item + .item {
     margin-left: 50px;
@@ -47,6 +48,10 @@
     margin-right: 0;
   }
 
+  & .link {
+    color: var(--primary-text-color);
+  }
+
   & .active {
     color: var(--secondary-color);
   }
@@ -58,7 +63,6 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
   line-height: 16px;
